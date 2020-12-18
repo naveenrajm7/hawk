@@ -65,7 +65,7 @@ docker build -t myhawk:v1.0.0 .
 
 **Helm warining Fix:** 
 
-If you see this waring for helm
+If you see this warning for helm
 ```bash
 bash-5.0# helm version
 WARNING: Kubernetes configuration file is group-readable. This is insecure. Location: /root/.kube/config
