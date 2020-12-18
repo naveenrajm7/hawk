@@ -20,7 +20,7 @@ docker run -it \
   -e AWS_ACCESS_KEY_ID="<AWS key>" \
   -e AWS_SECRET_ACCESS_KEY="<AWS secret>" \
   -e AWS_DEFAULT_REGION="us-east-1" \
-  naveenrajm/hawk:latest
+  naveenrajm/hawk:v1.0.0
 
 # configure kubectl auth for an existing EKS cluster named "my-cluster"
 aws eks update-kubeconfig --name my-cluster
